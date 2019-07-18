@@ -1,6 +1,8 @@
 
 
-
+.body{
+  background-color: black;
+}
 
 
 
@@ -21,9 +23,29 @@
   margin: 0 auto;
   margin-top: 3%;
   font-size: 2.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.AboutParagraph{
+  display: flex;
+  justify-content: center;
+  margin-left:23%;
+  margin-right:23%;
+  margin-top: 3%;
+  font-size: 1.2em;
+}
+
+.About{
+  color: white;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
+
 .SkillsAndSoftware{
   margin: 0 auto;
   margin-left: 10%;
@@ -32,12 +54,22 @@
   flex-wrap: wrap;
 }
 
+.SkillsTitle{
+  color: white;
+  text-decoration: underline;
+}
 .SkillsParagraphText{
+  color: white;
   font-size:1em;
   font-weight:bold;
 }
 
+.SoftwareTitle{
+  color: white;
+  text-decoration: underline;
+}
 .SoftwareParagraphText {
+  color: white;
   font-size:1em;
   font-weight:bold;
 }
@@ -53,6 +85,7 @@
   margin-left:33%;
   margin-top: 3%;
   display: flex;
+  font-weight:bold;
 }
 
 
@@ -61,6 +94,7 @@
   margin-left:33%;
   margin-top: 3%;
   display: flex;
+  font-weight:bold;
 }
 
 .LinkThree {
@@ -68,4 +102,30 @@
   margin-left:33%;
   margin-top: 3%;
   display: flex;
+  font-weight:bold;
+}
+
+.footer{
+  display:flex;
+  justify-content: center;
+  margin-top: 2%
+
+ }
+ 
+.contactEmail{
+  color:blue;
+  margin-left:7%;
+  margin-right:7%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactNumber{
+  color:blue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.LinkedInLink{
+  color:blue;
+  margin-left:7%;
+  margin-right:7%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
